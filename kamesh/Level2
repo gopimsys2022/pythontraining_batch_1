@@ -1,0 +1,108 @@
+#Exercises: Level 2
+
+# Check data types
+
+is_true = "False"
+my_num = 32
+string = "Hello"
+print(type(is_true))  
+print(type(my_num))   
+print(type(string))   
+
+# Using len() function
+firstname = "welcome to python"
+print(len(firstname))  
+
+# Compare length
+firstname = "sai"
+lastname = "vikas reddy"
+a = len(firstname)
+b = len(lastname)
+if a > b:
+    print("firstname longer")
+else:
+    print("second name longer")
+
+# Declare 
+num_one = 5
+num_two = 4 
+print(num_one)
+print(num_two)
+
+# Add
+num_one = 8
+num_two = 4
+total = num_one + num_two
+print(total)
+
+# Subtract
+diff = num_two - num_one
+print(diff)
+
+# Multiply
+product = num_two * num_one
+print(product)
+
+# Divide
+division = num_one / num_two
+print(division)
+
+# Use Modulus
+remainder = num_two % num_one
+print(remainder)
+
+# Power
+exp = num_one ** num_two
+print(exp)
+
+# Floor division
+floor_division = num_one // num_two
+print(floor_division)
+
+# Radius 
+radius = 30
+area_of_circle = 3.14 * (radius ** 2)
+print(area_of_circle)
+
+circum_of_circle = 2 * 3.14 * radius
+print(circum_of_circle)
+
+# Input Function
+firstname = input("Enter your first name: ")
+lastname = input("Enter your last name: ")
+country = input("Enter your country: ")
+age = input("Enter your age: ")
+
+print(firstname)
+print(lastname)
+print(country)
+print(age)
+
+#Keyword
+help('keywords') 
+
+Output :
+<class 'str'>
+<class 'int'>
+<class 'str'>
+17
+second name longer
+5
+4
+12
+-4
+32
+2.0
+4
+4096
+2
+2826.0
+188.4
+Enter your first name: Sandeep
+Enter your last name: varma
+Enter your country: India
+Enter your age: 27
+Sandeep
+varma
+India
+27
