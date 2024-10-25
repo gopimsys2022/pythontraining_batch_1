@@ -1,1 +1,1 @@
-# pythontraining_batch_1
+# List of all python exercise practiced programs
