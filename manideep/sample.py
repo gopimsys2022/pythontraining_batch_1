@@ -1,3 +1,43 @@
+Level1 :
+Level 1
+
+firstname = "manideep"
+lastname = "maddali"
+fullname = "manideep maddali"
+country = "India"
+city = "Guntur"
+age = "30"
+year = "2024"
+is_married = "No"
+is_true = "True" 
+is_light_on = "Yes"
+a,b = 14,16
+print(firstname)
+print(lastname)
+print(fullname)
+print(country)
+print(city)
+print(age)
+print(year)
+print(is_married)
+print(is_true)
+print(is_light_on)
+print(a,b)
+
+o/p:
+manideep
+maddali
+manideep maddali
+India
+Guntur
+30
+2024
+No
+True
+Yes
+14 16
+
+L2:
 Arthamatic Operators :
 
 Addition
@@ -98,3 +138,20 @@ else:
     print("sn longer")
 o/p:
 fn longer
+
+# Check if 'num' is an instance of a list
+num = [1, 2, 3, 4, 2, 5]
+result = isinstance(num, list) 
+if result:
+    print("The variable 'numbers' is an instance of a list.")
+else:
+    print("The variable 'numbers' is not an instance of a list.")
+o/p:
+The variable 'numbers' is an instance of a list.
+
+# Enumarate ()
+x = ('apple', 'banana', 'cherry')
+y = enumerate(x)
+print(list(y))
+o/p:
+[(0, 'apple'), (1, 'banana'), (2, 'cherry')]
