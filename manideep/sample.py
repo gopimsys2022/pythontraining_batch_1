@@ -59,4 +59,10 @@ print(mres)
 o/p:
 2
 
-
+# exponentiation operator
+v13 = 20
+v14 = 10
+eres = v13 ** v14
+print(eres)
+o/p:
+10240000000000
