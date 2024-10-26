@@ -1,4 +1,4 @@
-Operators :
+Arthamatic Operators :
 
 Addition
 x = 5
@@ -66,3 +66,35 @@ eres = v13 ** v14
 print(eres)
 o/p:
 10240000000000
+
+
+is_true = "False"
+string = "python"
+my_num = 46
+print(type(is_true))    
+print(type(string))  
+print(type(my_num)) 
+o/p:
+<class 'str'>
+<class 'str'>
+<class 'int'>
+
+
+# Using len() 
+length = "python challenge started"
+print(len(length))  
+o/p:
+24
+
+
+# Comparing length of a string
+fn = "manideep"
+ln = "maddali"
+a = len(fn)
+b = len(ln)
+if a > b:
+    print("fn longer")
+else:
+    print("sn longer")
+o/p:
+fn longer
