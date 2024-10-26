@@ -1,5 +1,4 @@
 Level1 :
-Level 1
 
 firstname = "manideep"
 lastname = "maddali"
