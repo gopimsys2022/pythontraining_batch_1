@@ -67,7 +67,7 @@ print(eres)
 o/p:
 10240000000000
 
-
+#Finding Data Types:
 is_true = "False"
 string = "python"
 my_num = 46
