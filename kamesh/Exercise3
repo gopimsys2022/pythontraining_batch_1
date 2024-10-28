@@ -1,0 +1,148 @@
+#decalre age as int 
+age = 25
+print(age)
+
+#height as float
+height = 5.9
+print(height)
+
+#complex
+x = complex(3,5)
+print(x)
+
+#area of triangle 
+base = 20
+height = 10
+area_of_triangle = base * height
+print(area_of_triangle)
+
+#Perimeter 
+a = 5
+b = 4 
+c = 3
+perimeter_of_triangle = a+b+c 
+print(perimeter_of_triangle)
+
+#calculate length and width
+length = float(input("Enter length: "))
+width = float(input("Enter width: "))
+area = length * width 
+perimeter = 2 * (length + width)
+print(area)
+print(perimeter)
+
+#Get a Radius (pi = 3.14)
+r = float(input("Enter radius: "))
+area = 3.14 * r * r
+print(r)
+circumference = 2 * 3.14 * r
+print(area)
+print(circumference) 
+
+#calculate slope 
+#x = 0, y =2(0)-2 = -2 -> (0,-2)
+point1 = (0,-2)
+point2  = (1,0)
+
+x1,y1 = point1 
+x2,y2 = point2 
+
+slope = (y2 - y1) / (x2 - x1) 
+x_intercept = (0 - (-2)) / 2 
+y_intercept = y1
+print(slope)
+
+#find slope and euclidean distance 
+point1 = (2,2)
+point2 = (6,10)
+
+x1, y1 = point1
+x2, y2 = point2
+
+slope = (y2 - y1) / (x2 - x1)
+distance = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+
+print(slope)
+print(distance)
+
+
+#length comp
+a = "python" 
+b = "dragon"
+length1 = len(a)
+length2 = len(b)
+print(length1)
+print(length2) 
+falsy_comp = a > b 
+print(falsy_comp) 
+
+#Use and operator 
+a = "python"
+b = "dragon"
+result = ("on" in a,"on" in b)
+print(result)
+
+#use in operator 
+a = "I hope this course is not full of jargon"
+result = "jargon" in a
+print(result) 
+
+#on
+a = "dragon"
+b = "python"
+result = "on" in a,"on" in b 
+print(result)
+
+#convert value 
+text = "python"
+length = len(text)
+length_float = float(length)
+length_string = str(length_float)
+print(length)
+print(length_float)
+print(length_string)
+
+#Even or not 
+Num = 4 
+if Num%2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+#floor division 
+floor_division = 7 // 3 
+int_value = int(2.7)
+is_equal = floor_division == int_value 
+print(is_equal)
+
+#check type 
+String = "10"
+integer = 10
+is_equal = String == integer
+print(is_equal)
+
+#check 
+my_value = int(float('9.8'))
+is_equal = my_value == 10
+print(is_equal)
+
+#user to enter hours 
+hours = float(input("Enter hours: "))
+rate_per_hour = float(input("enter rate per hour: "))
+weekly_earning = hours * rate_per_hour 
+print(weekly_earning)
+
+#no of yrs
+seconds_per_minute = 60
+minutes_per_hour = 60
+hours_per_day = 24
+days_per_year = 365
+
+years = float(input("Enter the number of years: "))
+
+if years > 100:
+    years = 100
+
+total_seconds = years * days_per_year * hours_per_day * minutes_per_hour * seconds_per_minute
+
+print(total_seconds)
