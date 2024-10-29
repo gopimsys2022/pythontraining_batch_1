@@ -29,6 +29,80 @@ lst =["name","age"]
 print (lst)
 
 # Print the number of companies in the list
-companies = ["flipkart", "amazonn", "netflix"]
+companies = ["flipkart", "amazonn", "netflix", "IBM", "meesho"]
 cl=len(companies)
 print (cl)
+
+# Print the first, middle and last company
+first_cmp=companies[0]
+print (first_cmp)
+middle_cmp=companies[2]
+print (middle_cmp)
+last_cmp=companies[-1]
+print (last_cmp)
+
+# Print the list after modifying one of the companies
+companies.insert(1 ,"myntra")
+print (companies)
+
+# Add an IT company to it_companies
+it_companies.append("myntra")
+print(it_companies)
+
+#Insertt an IT company in the middle of the companies list
+it_companies.insert(4 ,"aqua")
+print (it_companies)
+
+# Change one of the it_companies names to uppercase (IBM excluded!)
+
+
+# Join the it_companies with a string '#;  '
+jit=" + ".join(it_companies)
+print (jit)
+
+#Check if a certain company exists in the it_companies list.
+
+
+
+
+# Sort the list using sort() method
+vehicles = ["Lorry","car","Bike"]
+vehicles.sort()
+print(vehicles)
+
+#Reverse the list in descending order using reverse() method
+a = [1, 2, 3, 4, 5]
+a.reverse()
+print(a)
+
+# Slice out the first 3 companies from the list
+sf3 = it_companies[::3]
+print (sf3)
+
+# Slice out the last 3 companies from the list
+lf3 = it_companies[::-4]
+print (lf3)
+
+# Slice out the middle IT company or companies from the list
+mf3 = it_companies[3 : -3]
+print (mf3)
+
+# Remove the first IT company from the list
+frem = it_companies.pop(0)
+print (frem)
+print (it_companies)
+
+# Remove the middle IT company or companies from the list
+mrem = it_companies.pop(5)
+print (mrem)
+print (it_companies)
+
+# Remove the last IT company from the list
+lrem = it_companies.pop()
+print (lrem)
+print (it_companies)
+
+# Remove all IT companies from the list
+lclear =it_companies.clear()
+print (lclear)
+print (it_companies)
