@@ -106,3 +106,36 @@ print (it_companies)
 lclear =it_companies.clear()
 print (lclear)
 print (it_companies)
+
+output:
+
+[]
+['mani', 'chaitu', 'kamesh', 'veera', 'gopi']
+5
+mani
+kamesh
+gopi
+['manideep', 30, 5.1, 'single', 'perumbakkam', 'chennai']
+['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+['name', 'age']
+5
+flipkart
+netflix
+meesho
+['flipkart', 'myntra', 'amazonn', 'netflix', 'IBM', 'meesho']
+['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon', 'myntra']
+['Facebook', 'Google', 'Microsoft', 'Apple', 'aqua', 'IBM', 'Oracle', 'Amazon', 'myntra']
+Facebook + Google + Microsoft + Apple + aqua + IBM + Oracle + Amazon + myntra
+['Bike', 'Lorry', 'car']
+[5, 4, 3, 2, 1]
+['Facebook', 'Apple', 'Oracle']
+['myntra', 'aqua', 'Facebook']
+['Apple', 'aqua', 'IBM']
+Facebook
+['Google', 'Microsoft', 'Apple', 'aqua', 'IBM', 'Oracle', 'Amazon', 'myntra']
+Oracle
+['Google', 'Microsoft', 'Apple', 'aqua', 'IBM', 'Amazon', 'myntra']
+myntra
+['Google', 'Microsoft', 'Apple', 'aqua', 'IBM', 'Amazon']
+None
+[]
