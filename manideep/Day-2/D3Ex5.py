@@ -107,6 +107,12 @@ lclear =it_companies.clear()
 print (lclear)
 print (it_companies)
 
+# Destroy the IT companies list
+it_companies1 = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+print (it_companies1)
+del [it_companies1]
+print (it_companies1)
+
 output:
 
 []
@@ -139,3 +145,9 @@ myntra
 ['Google', 'Microsoft', 'Apple', 'aqua', 'IBM', 'Amazon']
 None
 []
+['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+Traceback (most recent call last):
+  File "d:\Git\pythontraining_batch_1\manideep\Day-2\pra.py", line 5, in <module>
+    print (it_companies1)
+           ^^^^^^^^^^^^^
+NameError: name 'it_companies1' is not defined
