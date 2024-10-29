@@ -113,6 +113,19 @@ print (it_companies1)
 del [it_companies1]
 print (it_companies1)
 
+#Join the following lists:
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+full_stack = front_end + back_end
+print (full_stack)
+ 
+# After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after Redux.
+full_stack.insert(5, "PYTHON")
+print (full_stack)
+  
+full_stack.insert(6, "SQL")
+print (full_stack)
+
 output:
 
 []
@@ -151,3 +164,6 @@ Traceback (most recent call last):
     print (it_companies1)
            ^^^^^^^^^^^^^
 NameError: name 'it_companies1' is not defined
+['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'Express', 'MongoDB']
+['HTML', 'CSS', 'JS', 'React', 'Redux', 'PYTHON', 'Node', 'Express', 'MongoDB']
+['HTML', 'CSS', 'JS', 'React', 'Redux', 'PYTHON', 'SQL', 'Node', 'Express', 'MongoDB']
