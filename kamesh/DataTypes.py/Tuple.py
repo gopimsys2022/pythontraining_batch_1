@@ -68,3 +68,21 @@ del food_stuff_tp
 nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 print("Estonia" in nordic_countries)
 print("Iceland" in nordic_countries)
+
+
+#Output
+()
+('kiran', 'ajay', 'vikas', 'sri', 'kumari')
+5
+('kiran', 'ajay', 'vikas', 'sri', 'kumari')
+('Vinay Varma', 'Devi', 'kiran', 'ajay', 'vikas', 'sri', 'kumari')
+('Vinay varma', 'Devi')
+('kiran', 'ajay', 'vikas', 'sri', 'kumari')
+('Orange', 'Mango', 'Apple', 'Potato', 'Onion', 'Cabbage', 'Lion', 'Tiger', 'Elephant')
+['Orange', 'Mango', 'Apple', 'Potato', 'Onion', 'Cabbage', 'Lion', 'Tiger', 'Elephant']
+Onion
+('Orange', 'Mango', 'Apple')
+('Lion', 'Tiger', 'Elephant')
+('Orange', 'Mango', 'Apple', 'Potato', 'Onion', 'Cabbage', 'Lion', 'Tiger', 'Elephant')
+False
+True
