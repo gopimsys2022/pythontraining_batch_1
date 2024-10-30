@@ -146,3 +146,40 @@ if years > 100:
 total_seconds = years * days_per_year * hours_per_day * minutes_per_hour * seconds_per_minute
 
 print(total_seconds)
+
+Output 
+
+25
+5.9   
+(3+5j)
+200
+12
+Enter length: 4
+Enter width: 5
+20.0
+18.0
+Enter radius: 3
+3.0
+28.259999999999998
+18.84
+2.0
+2.0
+8.94427190999916
+6
+6
+True
+(True, True)
+True
+(True, True)
+6
+6.0
+6.0
+Even
+True
+False
+False
+Enter hours: 40
+enter rate per hour: 24
+960.0
+Enter the number of years: 100
+3153600000.0
