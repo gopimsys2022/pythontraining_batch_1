@@ -1,3 +1,4 @@
+##### LISTS #####
 # Declare an empty list
 list = []
 print (list)
@@ -54,7 +55,8 @@ it_companies.insert(4 ,"aqua")
 print (it_companies)
 
 # Change one of the it_companies names to uppercase (IBM excluded!)
-
+uppercase = it_companies[2].upper() 
+print(uppercase)
 
 # Join the it_companies with a string '#;  '
 jit=" + ".join(it_companies)
@@ -145,6 +147,7 @@ meesho
 ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon', 'myntra']
 ['Facebook', 'Google', 'Microsoft', 'Apple', 'aqua', 'IBM', 'Oracle', 'Amazon', 'myntra']
 Facebook + Google + Microsoft + Apple + aqua + IBM + Oracle + Amazon + myntra
+MICROSOFT
 ['Bike', 'Lorry', 'car']
 [5, 4, 3, 2, 1]
 ['Facebook', 'Apple', 'Oracle']
