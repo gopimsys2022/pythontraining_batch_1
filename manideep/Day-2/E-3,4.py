@@ -27,3 +27,15 @@ b = int(input("Enter the Length of Second Side: "))
 c = int(input("Enter the Length of Third Side: "))
 p = a+b+c
 print("\nPerimeter = ", p)
+
+output :
+30
+5.1
+Input the base : 20
+Input the height : 10
+area =  100.0
+Enter the Length of First Side: 5
+Enter the Length of Second Side: 4
+Enter the Length of Third Side: 3
+
+Perimeter =  12
