@@ -167,3 +167,50 @@ print(result_div)
 print(result_mod)
 print(result_floor_div)
 print(result_exp)
+
+Output
+
+ThrityDaysOfPython
+CodingForAll
+Coding For All
+Google
+6
+WELCOME TO PYTHON PROGRAMMING
+msys technology
+Coding for all
+Coding For All
+cODING fOR aLL
+Coding For All string
+For All string
+0
+0
+coding For All
+Python for All
+['Coding', 'For', 'All']
+['Facebook', ' Google', ' Microsoft', ' Apple', ' IBM', ' Oracle', ' Amazon']
+C
+l
+ 
+0
+7
+19
+31
+ because because is a conjun
+True
+False
+Coding For All
+False
+True
+Django # Flask # Bottle # Pyramid # Falcon
+I am enjoying this challenge.
+I just wonder what is next.
+Name    Age     Country City
+Asabeneh        250     Finland Helsinki
+The area of a circle with radius 10 is 314 meters square.
+8 + 6 = 14
+8 - 6 = 2
+8 * 6 = 48
+8 / 6 = 1.33
+8 % 6 = 2
+8 // 6 = 1
+8 ** 6 = 262144
