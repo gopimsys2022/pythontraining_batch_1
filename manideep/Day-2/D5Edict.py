@@ -23,8 +23,8 @@ print (student_skill)
 print(type(student_skill))
 
 # Modify the skills values by adding one or two skills
-# student_skill["skills"].extend(["VMware","RAID"])
-# print (student_skill["skills"])
+student_details["skills"].extend(["VMware","RAID"])
+print (student_details["skills"])
 
 # Get the dictionary keys as a list
 keys = student_details.keys()
@@ -44,3 +44,17 @@ print(student_details)
 dict = {"name" : "mani", "place" : "chennai"}
 del dict
 print (dict)
+
+
+### Output  :
+# <class 'dict'>
+# {'name': 'snoppy', 'colour': 'white', 'breed': 'Germanshepard', 'legs': '4', 'age': '2years'}
+# {'first_name': 'manideep', 'last_name': 'maddali', 'gender': 'male', 'age': '31', 'marital_status': 'married', 'skills': ['storage', 'Testing', 'Python'], 'country': 'India', 'city': 'Guntur'}
+# 8
+# ['storage', 'Testing', 'Python']
+# <class 'list'>
+# ['storage', 'Testing', 'Python', 'VMware', 'RAID']
+# dict_keys(['first_name', 'last_name', 'gender', 'age', 'marital_status', 'skills', 'country', 'city'])
+# dict_values(['manideep', 'maddali', 'male', '31', 'married', ['storage', 'Testing', 'Python', 'VMware', 'RAID'], 'India', 'Guntur'])
+# {'first_name': 'manideep', 'last_name': 'maddali', 'gender': 'male', 'age': '31', 'skills': ['storage', 'Testing', 'Python', 'VMware', 'RAID'], 'country': 'India', 'city': 'Guntur'}
+# <class 'dict'>
