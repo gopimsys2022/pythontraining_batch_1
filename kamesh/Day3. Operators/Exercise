@@ -144,8 +144,8 @@ if years > 100:
     years = 100
 
 total_seconds = years * days_per_year * hours_per_day * minutes_per_hour * seconds_per_minute
-
 print(total_seconds)
+
 
 Output 
 

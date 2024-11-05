@@ -26,7 +26,6 @@ print(family_members)
 
 
 #Level 2
-
 #Unpack
 family_members = ('Vinay Varma', 'Devi', 'kiran', 'ajay', 'vikas', 'sri', 'kumari')
 parents =("Vinay varma", "Devi")

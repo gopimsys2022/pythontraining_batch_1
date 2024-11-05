@@ -111,7 +111,6 @@ full_stack.insert(5,"Python")
 full_stack.insert(6,"SQl")
 print(full_stack)
 
-
 #Level 2
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 print(ages)

@@ -176,7 +176,6 @@ del student["address"]
 print(student) 
 
 output 
-
 {}
 {'name': 'puppy', 'color': 'white', 'breed': 'lab', 'legs': 4, 'age': 5}
 {'first_name': 'Kiran', 'last_name': 'kumar', 'gender': 'Male', 'age': 26, 'Marital status': 'single', 'skills': ['Python', 'Storage', 'Linux'], 'country': 'India', 'city': 'Chennai', 'address': {'street': 'Space street', 'zipcode': '02210'}}    
