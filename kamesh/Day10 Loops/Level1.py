@@ -291,6 +291,7 @@ for fruit in list:
 print(rev_list)
 
 output 
+
 0
 1
 2
