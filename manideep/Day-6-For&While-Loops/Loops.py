@@ -1,43 +1,24 @@
-# person = {
-#     'first_name': 'Asabeneh',
-#     'last_name': 'Yetayeh',
-#     'age': 250,
-#     'country': 'Finland',
-#     'is_married': True,  # Fixed the key spelling
-#     'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
-#     'address': {
-#         'street': 'Space street',
-#         'zipcode': '02210'
-#     }
-# }
-
-# # Check if the person has the skills key
-# if 'skills' in person:
-#     skills = person['skills']
-    
-#     # Print out the middle skill
-#     middle_index = len(skills) // 2
-#     middle_skill = skills[middle_index]
-#     print(f"The middle skill is: {middle_skill}")
-# else:
-#     print("Unknown title.")
-
-
-# Iterate 0 to 10 using for loop, do the same using while loop.
-
+# terate 0 to 10 using for loop, do the same using while loop.
 for i in range(11):
     print(i)
 
-#
+# Using while loop
 i = 0
 while i <= 10:
     print(i)
     i += 1
 
 # Iterate 10 to 0 using for loop, do the same using while loop.
+for i in range(10, -1, -1):
+    print(i)
+
+# Using while Loop
+i = 10
+while i >= 0:
+    print(i)
+    i -= 1
 
 # Write a loop that makes seven calls to print(), so we get on the output the following triangle:
-
 #   #
 #   ##
 #   ###
@@ -45,18 +26,21 @@ while i <= 10:
 #   #####
 #   ######
 #   #######
+for i in range (1 , 8):
+    print("#" *i)
+
+
 # Use nested loops to create the following:
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
 
-# # # # # # # # #
-# # # # # # # # #
-# # # # # # # # #
-# # # # # # # # #
-# # # # # # # # #
-# # # # # # # # #
-# # # # # # # # #
-# # # # # # # # #
 # Print the following pattern:
-
 # 0 x 0 = 0
 # 1 x 1 = 1
 # 2 x 2 = 4
@@ -68,18 +52,40 @@ while i <= 10:
 # 8 x 8 = 64
 # 9 x 9 = 81
 # 10 x 10 = 100
+
 # Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
+list = ['Python', 'Numpy','Pandas','Django', 'Flask']
+for i in list:
+    print (i)
 
 # Use for loop to iterate from 0 to 100 and print only even numbers
-
 # Use for loop to iterate from 0 to 100 and print only odd numbers
+for num in range(1, 101):  
+    if num % 2 == 0: 
+        print(f"{num} is even") 
+    else: 
+        print(f"{num} is odd") 
 
 # Exercises: Level 2
 # Use for loop to iterate from 0 to 100 and print the sum of all numbers.
 # The sum of all numbers is 5050.
-# Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+sum = 0
+for i in range(101):
+    sum += i
+print(f"The total of all numbers is {sum}")
 
+# Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 # The sum of all evens is 2550. And the sum of all odds is 2500.
+even_total = 0
+odd_total = 0
+for i in range(101):
+    if i % 2 == 0:
+        even_total += i
+    else:
+        odd_total += i
+print(f"The sum of all evens is {even_total}. And the sum of all odds is {odd_total}.")
+
+
 # Exercises: Level 3
 # Go to the data folder and use the countries.py file. Loop through the countries and extract all the countries containing the word land.
 # This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
