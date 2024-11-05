@@ -94,6 +94,7 @@ if 'skills' in person:
         print(person["first_name"] + " " + person["last_name"] + " is married and lives in Finland.")
 
 output 
+
 Enter your age: 27
 You are old enough to learn to drive.
 Enter num one: 7
