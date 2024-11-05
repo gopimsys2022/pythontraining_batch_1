@@ -169,7 +169,6 @@ print(result_floor_div)
 print(result_exp)
 
 Output
-
 ThrityDaysOfPython
 CodingForAll
 Coding For All
