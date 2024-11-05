@@ -1,0 +1,5 @@
+rows = 6
+columns = 6
+
+for i in range(rows):
+    print("*" * columns)
