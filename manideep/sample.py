@@ -1,44 +1,12 @@
-
-grid of # symbols (8 rows and 8 columns):
-# for i in range(8):
-#     print('# ' * 8)
-
 # 7. Print a multiplication table from 0 to 10:
 # for i in range(11):
 #     print(f"{i} x {i} = {i * i}")
-# 8. Iterate through the list ['Python', 'Numpy', 'Pandas', 'Django', 'Flask'] and print each item:
-
-# 9. Print only even numbers from 0 to 100 using a for loop:
-# python
-# Copy code
-# for i in range(0, 101, 2):
-#     print(i)
-# 10. Print only odd numbers from 0 to 100 using a for loop:
-
-# for i in range(1, 101, 2):
-#     print(i)
 
 # Exercises: Level 2
-# 13. Use the countries.py file to loop through countries and extract those containing "land":
-# Assuming countries.py has a list of countries like countries = ['Finland', 'Ireland', 'Germany', 'Poland', 'Estonia'], you can use:
 
-# python
-# Copy code
-# countries = ['Finland', 'Ireland', 'Germany', 'Poland', 'Estonia']
-# for country in countries:
-#     if 'land' in country:
-#         print(country)
-# 14. Reverse the fruit list ['banana', 'orange', 'mango', 'lemon'] using a loop:
-# python
-# Copy code
-# fruits = ['banana', 'orange', 'mango', 'lemon']
-# for i in range(len(fruits)-1, -1, -1):
-#     print(fruits[i])
 # 15. Total number of languages from countries_data.py:
 # Assuming countries_data.py contains a list of languages for each country, the code could look something like this:
 
-# python
-# Copy code
 # # Example data format: countries_data = [{'country': 'USA', 'languages': ['English', 'Spanish']}, ...]
 # countries_data = [
 #     {'country': 'USA', 'languages': ['English', 'Spanish']},
@@ -54,8 +22,6 @@ grid of # symbols (8 rows and 8 columns):
 # 16. Find the ten most spoken languages from the data:
 # This would depend on how the data is structured, but here's a generic approach:
 
-# python
-# Copy code
 # # Example: countries_data = [{'country': 'USA', 'languages': ['English', 'Spanish']}, ...]
 # languages_count = {}
 # for country in countries_data:
@@ -72,8 +38,6 @@ grid of # symbols (8 rows and 8 columns):
 # 17. Find the 10 most populated countries:
 # Assuming you have population data in countries_data.py like:
 
-# python
-# Copy code
 # # Example format: countries_data = [{'country': 'USA', 'population': 331000000}, ...]
 # countries_data = [
 #     {'country': 'USA', 'population': 331000000},
@@ -88,4 +52,15 @@ grid of # symbols (8 rows and 8 columns):
 # print("Top 10 most populated countries:")
 # for country in top_10_countries:
 #     print(f"{country['country']}: {country['population']}")
+
+# def add_all_nums(*args):
+#     if not all(isinstance(arg, (int, float)) for arg in args):
+#         return "All arguments must be numbers."
+#     return sum(1,3,7,9)
+# print add_all_nums
+
+def convert_celsius_to_fahrenheit(celsius):
+    return(celsius * 9/5) + 32
+print(convert_celsius_to_fahrenheit(3))
+
 
