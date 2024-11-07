@@ -53,3 +53,14 @@
 # for country in top_10_countries:
 #     print(f"{country['country']}: {country['population']}")
 
+# def add_all_nums(*args):
+#     if not all(isinstance(arg, (int, float)) for arg in args):
+#         return "All arguments must be numbers."
+#     return sum(1,3,7,9)
+# print add_all_nums
+
+def convert_celsius_to_fahrenheit(celsius):
+    return(celsius * 9/5) + 32
+print(convert_celsius_to_fahrenheit(3))
+
+
