@@ -1,0 +1,18 @@
+#Sum of list
+list = [1,2,3,4,5]
+result = sum(list)
+print(result)
+
+#with out using sum()
+list = [1,2,3,4,5]
+res = 0
+for i in list:
+    res += i 
+print(res)
+
+#Multiply
+list = [5,6,7]
+res = 0
+for i in list:
+    res ** i 
+print(res)
