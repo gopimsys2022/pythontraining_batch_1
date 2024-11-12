@@ -1,0 +1,35 @@
+C:\Users\smfarook\PycharmProjects\pythonProject2\.venv\Scripts\python.exe C:\Users\smfarook\AppData\Roaming\JetBrains\PyCharmCE2023.3\scratches\Perfimpprog\list1exer1.py 
+['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'Express', 'MongoDB']
+['HTML', 'CSS', 'JS', 'React', 'Redux', 'Python', 'SQL', 'Node', 'Express', 'MongoDB']
+5
+2
+The first element is Tomato, second element is Cabbage, and the last element is Carrot
+
+<class 'str'>
+<class 'int'>
+<class 'int'>
+<class 'str'>
+<class 'int'>
+<class 'str'>
+<class 'str'>
+['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+The first company is Facebook, second company is Onion, and the last company is Amazon
+
+3
+['Facebook', 'Google', 'Microsoft', 'Pears', 'IBM', 'ORACLE', 'Amazon', 'banana', 'orange', 'mango', 'lemon']
+['Pears', 'IBM', 'ORACLE', 'Amazon', 'banana', 'orange', 'mango', 'lemon']
+['orange', 'mango', 'lemon']
+['Pears', 'IBM', 'ORACLE', 'Amazon', 'banana', 'orange']
+lemon
+['Facebook', 'Google', 'Microsoft', 'Pears', 'IBM', 'ORACLE', 'Amazon', 'dragon', 'banana', 'orange', 'mango']
+['Facebook', 'Google', 'Microsoft', 'Pears', 'IBM', 'ORACLE', 'Amazon', 'dragon', 'banana', 'mango']
+['Google', 'Microsoft', 'Pears', 'IBM', 'ORACLE', 'Amazon', 'dragon', 'banana', 'mango']
+0
+1
+Google
+['Microsoft', 'Pears', 'IBM', 'ORACLE', 'Amazon', 'dragon', 'banana', 'mango', '#']
+['#', 'Amazon', 'IBM', 'Microsoft', 'ORACLE', 'Pears', 'banana', 'dragon', 'mango']
+['mango', 'dragon', 'banana', 'Pears', 'ORACLE', 'Microsoft', 'IBM', 'Amazon', '#']
+['mango', 'dragon', 'banana', 'Pears', 'ORACLE', 'Microsoft', 'IBM', 'Amazon', '#']
+
+Process finished with exit code 0
