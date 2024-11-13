@@ -53,14 +53,28 @@
 # for country in top_10_countries:
 #     print(f"{country['country']}: {country['population']}")
 
-# def add_all_nums(*args):
-#     if not all(isinstance(arg, (int, float)) for arg in args):
-#         return "All arguments must be numbers."
-#     return sum(1,3,7,9)
-# print add_all_nums
+# Declare a function named evens_and_odds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+#     print(evens_and_odds(100))
+#     # The number of odds are 50.
+#     # The number of evens are 51.
+def evens_and_odds(n):
+    even_count = 0
+    odd_count = 0
+    for i in range(1, 100):
+#for digit in str(n):  # Convert the number to a string to loop through its digits
+        if n % 2 == 0:
+            even_count += 1
+        else:
+            odd_count += 1
+    return f"The number of evens are {even_count}. The number of odds are {odd_count}."
+print(evens_and_odds(100))  
 
-def convert_celsius_to_fahrenheit(celsius):
-    return(celsius * 9/5) + 32
-print(convert_celsius_to_fahrenheit(3))
-
+def sum_of_even(n):
+    sum=0
+    for i in range(1, n+1):
+        if i % 2 == 0:
+            sum += i
+    return sum
+print(sum_of_even(100))
+# Output: The number of evens are 2. The number of odds are 1.
 
