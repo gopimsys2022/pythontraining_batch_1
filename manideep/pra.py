@@ -47,3 +47,7 @@
 # Find the ten most spoken languages from the data
 # Find the 10 most populated countries in the world
 # Go to the data folder and use the countries.py file. Loop through the countries and extract all the countries containing the word land.
+# syntac
+# re.match(substring, string, re.I)
+# substring is a string or a pattern, string is the text we look for a pattern , re.I is case ignore
+# 
