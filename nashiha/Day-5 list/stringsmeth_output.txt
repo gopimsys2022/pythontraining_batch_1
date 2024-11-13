@@ -1,0 +1,44 @@
+C:\Users\smfarook\PycharmProjects\pythonProject2\.venv\Scripts\python.exe C:\Users\smfarook\AppData\Roaming\JetBrains\PyCharmCE2023.3\scratches\Perfimpprog\stringsmeth.py 
+ThirtyDaysOfPython
+Coding for all
+<class 'str'>
+Coding for all
+CODING FOR ALL
+coding for all
+1
+False
+Coding by all
+False
+cODING FOR ALL
+coding for all
+False
+-1
+ng fo
+lla rof gnidoC
+ for al
+2
+11
+<class 'str'>
+Python for all
+Python for everyone
+P *y *t *h *o *n *  *f *o *r *  *e *v *e *r *y *o *n *e
+['Python', 'for', 'everyone']
+Coding for all
+7
+1
+False
+5
+5
+False
+False
+False
+False
+True
+True
+D#j#a#n#g#o
+F#l#a#s#k
+B#o#t#t#l#e
+P#y#r#a#m#i#d
+F#a#l#c#o#n
+
+Process finished with exit code 0

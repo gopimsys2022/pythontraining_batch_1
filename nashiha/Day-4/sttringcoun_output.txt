@@ -1,0 +1,19 @@
+C:\Users\smfarook\PycharmProjects\pythonProject2\.venv\Scripts\python.exe C:\Users\smfarook\AppData\Roaming\JetBrains\PyCharmCE2023.3\scratches\Perfimpprog\stringcoun.py 
+33
+T
+['The', 'best', 'things', 'in', 'life', 'are', 'free!']
+['The best th', 'ngs ', 'n l', 'fe are free!']
+r
+2
+!
+False
+24
+the best things in life are free!
+THE BEST THINGS IN LIFE ARE FREE!
+19
+The best things in newlife are free!
+False
+tHE BEST THINGS IN LIFE ARE FREE!
+False
+
+Process finished with exit code 0
