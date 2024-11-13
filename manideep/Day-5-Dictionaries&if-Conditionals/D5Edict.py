@@ -11,7 +11,7 @@ dog['age'] = '2years'
 print (dog)
 
 # Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
-student_details = {"first_name" : "manideep", "last_name" : "maddali", "gender" : "male", "age": "31", "marital_status" : "married", "skills" : ['storage', 'Testing', 'Python'], "country" : "India", "city" : "Guntur"}
+student_details = {"first_name" : "manideep", "last_name" : "maddali", "gender" : "male", "age": "31", "marital_status" : "single", "skills" : ['storage', 'Testing', 'Python'], "country" : "India", "city" : "Guntur"}
 print (student_details)
 
 # Get the length of the student dictionary
