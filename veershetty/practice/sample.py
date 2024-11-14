@@ -27,3 +27,10 @@ ModuleNotFoundError: No module named 'maths'
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 vegetables = ('tomato', 'potato', 'cabbage','onion', 'carrot')
 fruits.update(vegetables)
+
+arr = [3, 5, 7, 2, 8, 1]
+print(max(arr))
+
+tpl = ('item1', 'item2', 'item3','item4')
+all_items = tpl[-4:]        
+middle_two_items = tpl[-3:-1]
