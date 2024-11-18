@@ -14,3 +14,8 @@ print(math.pow(2, 3))
 print(math.floor(9.81))  
 print(math.ceil(9.81))   
 print(math.log10(100)) 
+
+import string
+print(string.ascii_letters)
+print(string.digits)        
+print(string.punctuation)
