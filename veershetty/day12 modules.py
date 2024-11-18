@@ -19,3 +19,7 @@ import string
 print(string.ascii_letters)
 print(string.digits)        
 print(string.punctuation)
+
+from random import random, randint
+print(random())   
+print(randint(5, 20))
