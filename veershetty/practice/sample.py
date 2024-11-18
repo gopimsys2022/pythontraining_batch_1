@@ -34,3 +34,8 @@ print(max(arr))
 tpl = ('item1', 'item2', 'item3','item4')
 all_items = tpl[-4:]        
 middle_two_items = tpl[-3:-1]
+
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(len(dct))
+
+
