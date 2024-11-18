@@ -1,0 +1,11 @@
+from datetime import datetime
+now = datetime.now()
+t = now.strftime("%H:%M:%S")
+print("time:", t)
+time_one = now.strftime("%m/%d/%Y, %H:%M:%S")
+print("time one:", time_one)
+time_two = now.strftime("%d/%m/%Y, %H:%M:%S")
+print("time two:", time_two)
+time: 01:05:01
+time one: 12/05/2019, 01:05:01
+time two: 05/12/2019, 01:05:01
