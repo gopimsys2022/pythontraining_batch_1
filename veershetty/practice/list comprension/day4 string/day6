@@ -1,0 +1,3 @@
+tpl = ('item1', 'item2', 'item3','item4')
+all_items = tpl[-4:]        
+middle_two_items = tpl[-3:-1]
