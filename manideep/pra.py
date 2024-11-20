@@ -51,3 +51,113 @@
 # re.match(substring, string, re.I)
 # substring is a string or a pattern, string is the text we look for a pattern , re.I is case ignore
 # 
+# 1)
+# Find the missing numbers in the list
+# [1,2,3,6,8,9]
+# nums = [1, 2, 3, 6, 8, 9]
+# fullrange = list(range(1, 10))
+# missingnumbers = list(set(fullrange) - set(nums))
+# missingnumbers.sort()
+# print("Missing numbers:", missingnumbers)
+
+### (or)
+# nums = [1, 2, 3, 6, 8, 9]
+# missing_numbers = []
+# for i in range(1 , 10):
+#     if i not in nums:
+#         missing_numbers.append(i)
+# print(missing_numbers)
+
+# 2)
+# Update the value in the dict
+# dict = {"a": 1, "b": [1,2], "c": "data"}
+# dict.update({"b": {1,2,3,4}})
+# print (dict)
+
+# 3)
+# Remove duplicates values, 20,30,40,20,10,40
+# output:
+# [10,20,30,40]
+values = [20,30,40,20,10,40]
+list=set(values)
+print (list)
+
+### (or)
+# numbers = [20, 30, 40, 20, 10, 40]
+# unique_numbers = []
+# for num in numbers:
+#     if num not in unique_numbers:  # Check if the number is already in the list
+#         unique_numbers.append(num)  # Add it if it's not already there
+# print(unique_numbers)
+
+
+
+# 4)
+# input:
+# x = [1,2,3]
+# y = [3,2,6]
+# output1-> [1,2,3,3,2,6]
+# i) Get unique values
+# z = x union y
+# print (z)
+# x = [1,2,3]
+# y = [3,2,6]
+# x.extend(y)
+# print (x)
+# z = set(x)
+# print (z)
+
+# unique_values = list(set(z))
+# print(unique_values)
+
+###
+str1 = "xyzmamama"
+res = ""
+count = 0
+for i in str1:
+    if "m" == i:
+        count+=1
+        if count >= 2:
+            res = res + "$"
+        else:
+            res = res + i
+    else:
+        res = res + i
+print(res)
+# output = xyzma$a$a
+
+# str = "aabbbcddddeeeee"
+# count = ""
+# for i in str:
+#     if str == i:
+#         count+=1
+#         if count >= 1:
+
+
+# o/p : a2b3c1d3e5
+# str2 = "aabbbcddddeeeee"
+# freq = {}
+
+# for i in str2:
+#     if i in freq:
+#         freq[i] += 1
+#     else:
+#         freq[i] = 1
+
+# print(freq)
+# str3=str(freq)
+# print(str3)
+
+#####
+str2 = "aabbbcddddeeeee"
+result = ''
+count = 1
+for i in range(1, len(str2)):
+    if str2[i] == str2[i-1]:
+        count += 1
+    else:
+        result += str2[i-1] + str(count)
+        count = 1  
+result += str2[-1] + str(count)
+
+print(result)

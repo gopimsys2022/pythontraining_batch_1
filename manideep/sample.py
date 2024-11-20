@@ -57,24 +57,55 @@
 #     print(evens_and_odds(100))
 #     # The number of odds are 50.
 #     # The number of evens are 51.
-def evens_and_odds(n):
-    even_count = 0
-    odd_count = 0
-    for i in range(1, 100):
-#for digit in str(n):  # Convert the number to a string to loop through its digits
-        if n % 2 == 0:
-            even_count += 1
-        else:
-            odd_count += 1
-    return f"The number of evens are {even_count}. The number of odds are {odd_count}."
-print(evens_and_odds(100))  
+# def evens_and_odds(n):
+#     even_count = 0
+#     odd_count = 0
+#     for i in range(1, 100):
+# #for digit in str(n):  # Convert the number to a string to loop through its digits
+#         if n % 2 == 0:
+#             even_count += 1
+#         else:
+#             odd_count += 1
+#     return f"The number of evens are {even_count}. The number of odds are {odd_count}."
+# print(evens_and_odds(100))  
 
-def sum_of_even(n):
-    sum=0
-    for i in range(1, n+1):
-        if i % 2 == 0:
-            sum += i
-    return sum
-print(sum_of_even(100))
-# Output: The number of evens are 2. The number of odds are 1.
+# def sum_of_even(n):
+#     sum=0
+#     for i in range(1, n+1):
+#         if i % 2 == 0:
+#             sum += i
+#     return sum
+# print(sum_of_even(100))
+# # Output: The number of evens are 2. The number of odds are 1.
 
+# given_list = [1, 2, 3, 6, 8, 9]
+# full_list = list(range(1, 10))
+# missing_numbers = []
+# for num in full_list:
+#     if num not in given_list:
+#         missing_numbers.append(num)
+# print(missing_numbers)
+
+weekdays = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sun', 'mon', 'mon']
+count = {}
+for day in weekdays:
+    if day in count:
+        count[day] += 1
+    else:
+        count[day] = 1
+list1 = []
+dup = set()
+print(list1)
+for day in weekdays:
+    if day not in dup:
+        list1.append([day, count[day]])
+        dup.add(day)
+print(list1)
+dictionary = {key: value for key, value in list1}
+print(dictionary)
+
+s = "HelloWorld!"
+i = 0
+while i < len(s):
+print(s[i])
+i += 1
