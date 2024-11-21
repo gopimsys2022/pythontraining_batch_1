@@ -9,4 +9,10 @@ print(span)
 start, end = span
 print(start, end)
 substring = txt[start:end]
-print(substring)      
+print(substring)   
+
+f = open('./files/reading_file_example.txt')
+txt = f.read()
+print(type(txt))
+print(txt)
+f.close()
