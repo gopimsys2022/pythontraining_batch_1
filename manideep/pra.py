@@ -161,3 +161,34 @@ for i in range(1, len(str2)):
 result += str2[-1] + str(count)
 
 print(result)
+s = "aabbbcddddeeeee"  
+result = "" 
+count = 1  
+for i in range(1, len(s)):
+    
+    if s[i] == s[i-1]:  
+        
+        count += 1  
+    else:
+        result = s[i-1] 
+        count = 1
+
+### kamesh
+fruits = {"appe": 1, "mango":2, "banana":[{"type1":10}, {"type2": 20}], "grape":4, "orange":5}
+print(fruits)
+
+for fruit, items in fruits.items():
+    if fruit == "banana":
+        for item in items:
+            if "type2" in item:
+                item["type2"] = 50
+print(fruits)
+
+
+#####
+fruits = {"appe": 1, "mango": 2, "banana": [{"type1": 10}, {"type2": 20}], "grape": 4, "orange": 5}
+# fruits["watermelon"] = fruits.pop("banana")
+for item in fruits["banana"]:
+    if "type2" in item:
+        item["type2"] = 50
+print(fruits)
