@@ -104,8 +104,13 @@ print(list1)
 dictionary = {key: value for key, value in list1}
 print(dictionary)
 
-s = "HelloWorld!"
-i = 0
-while i < len(s):
-print(s[i])
-i += 1
+# s = "HelloWorld!"
+# i = 0
+# while i < len(s):
+# print (s[i])
+# i += 1
+
+s="xhdmfjfmmdhm"
+i=s.index("m")
+s=s[:i+1]+s[i+1:].replace("m","$")
+print(s)
