@@ -19,3 +19,8 @@ print("Last item:", last_item)
 
 Declare a list called mixed_data_types, put your(name, age, height, marital status, address)?
 mixed_data_types = ["John Doe", 30, 5.9, "Single", "123 Main St, City, Country"]
+
+Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon?
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+
+
