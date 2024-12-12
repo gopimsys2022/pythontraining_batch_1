@@ -79,14 +79,48 @@ print(fruits)
 # print(data)
 
 
-data = {"friuts": {"appe": 1,"mango": 2,"banana": [{"type1": 10}, {"type2": 20}],"grape": 4,"orange": 5}}
-keys_to_remove = []
-for key, value in data["friuts"].items():
-    if key == "banana":
-        keys_to_remove.append(key)
-        data["friuts"]["watermelon"] = value
-        data["friuts"]["watermelon"][1]["type2"] = 50
-for key in keys_to_remove:
-    del data["friuts"][key]
 
-print(data)
+# data = {"friuts": {"appe": 1,"mango": 2,"banana": [{"type1": 10}, {"type2": 20}],"grape": 4,"orange": 5}}
+# keys_to_remove = []
+# for key, value in data["friuts"].items():
+#     if key == "banana":
+#         keys_to_remove.append(key)
+#         data["friuts"]["watermelon"] = value
+#         data["friuts"]["watermelon"][1]["type2"] = 50
+# for key in keys_to_remove:
+#     del data["friuts"][key]
+
+# print(data)
+
+## Input: Here n is any natural number of 1 to n
+
+# Output should be like below:
+# if n=5
+
+# 15 
+# 14 13 
+# 12 11 10
+# 9  8  7  6
+# 5  4  3  2  1
+
+# if n=4
+
+# 10 
+# 9 8 
+# 7 6 5
+# 4 3 2 1
+
+# if n=3
+
+# 6 
+# 5 4 
+# 3 2 1
+
+## Solution:
+n=int(input("Enter any natural number: "))
+count=(n*(n+1))//2
+for i in range(n):
+    count-=i
+    for j in range(i+1):
+        print(count-j,end=" ")
+    print()
