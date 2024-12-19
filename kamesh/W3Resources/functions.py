@@ -113,14 +113,13 @@ def palindrome(word):
         return "not"
 print(palindrome("madam"))
 
-output : 
+output 
 66
 20
--336
-dcba4321       
+dcba4321
 120
-outside range  
-(3, 15)        
+outside range
+(3, 15)
 [1, 2, 3, 4, 5]
 True
 False
