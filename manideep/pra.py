@@ -192,3 +192,33 @@ for item in fruits["banana"]:
     if "type2" in item:
         item["type2"] = 50
 print(fruits)
+
+###
+# Write a Python program to calculate the average value of the numbers in a given tuple of tuples.
+# Original Tuple:
+# ((10, 10, 10, 12), (30, 45, 56, 45), (81, 80, 39, 32), (1, 2, 3, 4))
+# Average value of the numbers of the said tuple of tuples:
+# [30.5, 34.25, 27.0, 23.25]
+
+my_tuple = ((10, 10, 10, 12), (30, 45, 56, 45), (81, 80, 39, 32), (1, 2, 3, 4))
+avg_value = []
+for i in my_tuple:
+    avg = sum(i) / len(i)
+    avg_value.append(avg)
+print (avg_value)
+
+tuple = ((10, 10, 10, 12), (30, 45, 56, 45), (81, 80, 39, 32), (1, 2, 3, 4))
+
+res = []
+
+for i in range(len(tuple)): 
+    total = 0
+    count = 0
+    
+    for j in range(len(tuple[0])):
+        total += tuple[j][i]
+        count += 1
+    
+    res.append(total / count)
+
+print(res)
